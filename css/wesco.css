@@ -1,3 +1,29 @@
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
 .video-section .pattern-overlay {
 background-color: rgba(71, 71, 71, 0.59);
 padding: 110px 0 32px;
@@ -92,7 +118,7 @@ p{
 }
 
 footer{
-	font-size: 1.7em;
+	font-size: 1em;
 }
 
 .house{
@@ -101,4 +127,52 @@ footer{
 	color: #fff;
 	padding: 10px 0px 10px 0px;
 	margin: 60px 220px 20px 220px;
+}
+.nopadding{
+	padding:0;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.logoContainer{
+	
+}
+.storeHeadInfo{
+	
+}
+.logo{
+	height:10em;
+}
+.anchorTag{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: none;
+	float: left;
+}
+.anchorTag:hover{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: none;
+}
+.serviceImg{
+	height: 7em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.serviceName{
+	padding-bottom: 0;
+	margin-bottom: 0.5em;
+}
+.scheduleBtn{
+	margin-bottom: 1em;
+}
+.serviceContainer{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.serviceItemContainer{
+	margin-top: 2em;
+}
+.spaceTop{
+	margin-top: 2em;
 }

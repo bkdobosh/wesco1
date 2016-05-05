@@ -1,29 +1,36 @@
 <!DOCTYPE html>  
 <html lang="en">
-  <head>
-  		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-   		<title>Wesco Sports Center</title>
-
-    	
-    	<link href="css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet"  type= "text/css" href="css/wesco.css">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wesco Sports Center</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet"  type= "text/css" href="css/wesco.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <!-- Warming Up -->
-      <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
+</head>
 
-    <img src="img/wescoLogo.png">
+<header class="col-lg-12 nopadding">
+    <div class="col-lg-6 logoContainer">
+        <img src="img/wescoLogo.png" alt="wesco sports center" class="logo"/>
+    </div>
+    <div class="col-lg-6 storeHeadInfo">
+        
+    </div>
+</header>
 
-<div class="navbar navbar-inverse">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
+    
+
+<div class="navbar navbar-inverse col-lg-12">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
       
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <li class="equipment"><a href="#about">Sports Equipment</a>
                     </li>
@@ -33,13 +40,13 @@
                     </li>
                 </ul>
             </div>
-      </div>
+        </div>
     </div>
-  </div>
 </div>
 
+
 <!--Video Section-->
-<section class="content-section video-section">
+<section class="content-section video-section col-lg-12 nopadding">
   <div class="pattern-overlay">
   <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Y4d10hzzwRI',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
     <div class="container">
@@ -101,9 +108,55 @@ When you take these great brands and put them all in one place, then add in the 
 <!--services section starts -->
 
 
-<h2 class="house">In-House Services</h2>
+<div class="jumbotron jumbotron-sm col-lg-12">
+    <div class="container col-lg-10 col-lg-offset-1">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12 cf">
+                <h1 class="h1 cf col-lg-12"><a name="services" class="anchorTag" id="ServicesTitle">In-House Services</a></h1>
+            </div>
+        </div>
+    </div>
+</div>
 
-<p>Not only does WESCO carry the best brands and have the most expertise in fitting equipment, we also pride ourselves in all the services we offer.</p>
+<div class="col-lg-11 col-lg-offset-1 cf">
+    <div class="col-lg-3 col-sm-6 col-sm-offset-0 serviceItemContainer">
+        <center class="col-lg-12"><img src="img/skate.png" alt="Sharpening" class="serviceImg"></center>
+        <center><h3 class="serviceName">Sharpening</h3></center>
+        <center><button class="btn btn-primary scheduleBtn">Schedule Service</button></center>
+    </div>
+    <div class="col-lg-3 col-lg-offset-1 col-sm-6 col-sm-offset-0 serviceItemContainer">
+        <center class="col-lg-12"><img src="img/skate.png" alt="Elite Sharpening" class="serviceImg"></center>
+        <center><h3 class="serviceName">Elite Sharpening</h3></center>
+        <center><button class="btn btn-primary scheduleBtn">Schedule Service</button></center>
+    </div>
+    <div class="col-lg-3 col-lg-offset-1 col-sm-6 col-sm-offset-0 serviceItemContainer">
+        <center class="col-lg-12"><img src="img/skate.png" alt="Ice Hockey Skate Repair" class="serviceImg"></center>
+        <center><h3 class="serviceName">Ice Hockey Skate Repair</h3></center>
+        <center><button class="btn btn-primary scheduleBtn">Schedule Service</button></center>
+    </div>
+
+    <div class="col-lg-3 col-sm-6 col-sm-offset-0 serviceItemContainer">
+        <center class="col-lg-12"><img src="img/skate.png" alt="Goalie Skate Repair" class="serviceImg"></center>
+        <center><h3 class="serviceName">Goalie Skate Repair</h3></center>
+        <center><button class="btn btn-primary scheduleBtn">Schedule Service</button></center>
+    </div>
+    <div class="col-lg-3 col-lg-offset-1 col-sm-6 col-sm-offset-0 serviceItemContainer">
+        <center class="col-lg-12"><img src="img/skate.png" alt="Ice Hockey Equipment Repair" class="serviceImg"></center>
+        <center><h3 class="serviceName">Ice Hockey Equipment Repair</h3></center>
+        <center><button class="btn btn-primary scheduleBtn">Schedule Service</button></center>
+    </div>
+    <div class="col-lg-3 col-lg-offset-1 col-sm-6 col-sm-offset-0 serviceItemContainer">
+        <center class="col-lg-12"><img src="img/skate.png" alt="Goalie Equipment Repair" class="serviceImg"></center>
+        <center><h3 class="serviceName">Goalie Equipment Repair</h3></center>
+        <center><button class="btn btn-primary scheduleBtn">Schedule Service</button></center>
+    </div>
+</div>  
+
+
+
+<!--<h2 class="house">In-House Services</h2>!-->
+
+<!--<p>Not only does WESCO carry the best brands and have the most expertise in fitting equipment, we also pride ourselves in all the services we offer.</p>
 
 <h2>Sharpening</h2>
 
@@ -130,9 +183,20 @@ When you take these great brands and put them all in one place, then add in the 
 <p>Our goalie room is by far the best in the area, but our goalie center doesn't stop with just inventory and expert staff. WESCO offers full service and repairs on all goalie equipment. We can do things as simple as replacing leg pad straps and toe bars/laces, and as intricate as relaxing and entire leg channel. We have all the parts for leg pads including toe bar, strap, and slider replacements (hardware included), leg pad straps, knee stacks, thigh protection, and more! We don't just limit our repairs to leg pads. WESCO can also fix up you catcher and blocker. If you need a pocket or binding re-laced, or new padding inside, we can do it. We offer the same services on protective equipment as for players too. We can fix up your goalie pants, chest/arm protectors, and helmets too!</p>
 
 
-<p>Don't waste your time sending your equipment to someone you don't even know or have never met! Come in to WESCO instead and get the best service and repairs on all your equipment! This is just another reason why "There's no place else to go"!</p>
+<p>Don't waste your time sending your equipment to someone you don't even know or have never met! Come in to WESCO instead and get the best service and repairs on all your equipment! This is just another reason why "There's no place else to go"!</p>!-->
 
-  <div class="container">
+<div class="jumbotron jumbotron-sm col-lg-12 spaceTop">
+    <div class="container col-lg-10 col-lg-offset-1">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12 cf">
+                <h1 class="h1 cf col-lg-12">
+                    <a name="services" class="anchorTag" id="ServicesTitle">The Brands You Know and Trust</a></h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <div class="container col-lg-12">
         <div class="row">
             <div class="span12">
                 <div class="well">
@@ -143,7 +207,7 @@ When you take these great brands and put them all in one place, then add in the 
                                 <div class="item active">
                                     <div class="col-md-4">
                                         <a href="https://www.google.com/imgres?imgurl=http%3A%2F%2Fep.yimg.com%2Fay%2Fhockeymonkey%2Fbauer-supreme-totalone-mx3-le-black-sr-ice-hockey-skates-28.jpg&imgrefurl=http%3A%2F%2Fwww.hockeymonkey.com%2Fbauer-hockey-skates-supreme-totalone-mx3-le-sr.html&docid=0lx9ifwCHY1PWM&tbnid=TnSkgb7kyKedtM%3A&w=800&h=800&bih=1171&biw=1600&ved=0ahUKEwjSyozk1sPMAhVI5iYKHUQKD7UQMwhaKBowGg&iact=mrc&uact=8">
-                                            <img src="img/mx3le.jpg"/250x250" class="img-responsive center-block"><alt="Generic placeholder image"></a>
+                                            <img src="img/mx3le.jpg" class="img-responsive center-block"><alt="Generic placeholder image"></a>
 
 
                                         <div class="text-center">1</div>
@@ -190,12 +254,12 @@ When you take these great brands and put them all in one place, then add in the 
         </div>
     </div>
 
-<div class="jumbotron jumbotron-sm">
-    <div class="container">
+<div class="jumbotron jumbotron-sm col-lg-12">
+    <div class="container ">
         <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                <h1 class="h1">
-                    Contact us <small></small></h1>
+            <div class="col-sm-12 col-lg-12 cf">
+                <h1 class="h1 cf">
+                    <a name="contactUs" class="anchorTag" id="contactUsTitle">Contact us</a></h1>
             </div>
         </div>
     </div>
@@ -276,7 +340,7 @@ When you take these great brands and put them all in one place, then add in the 
 
 
        <footer>
-       <p><center>&copy;2016 Wesco Sports Center &middot; All Rights Reserved &middot; <a href="mailto:email@wescosports.com">Email us</a> &middot; <a href="#">Home</a></center></p>
+       <p><center>&copy;2016 Wesco Sports Center &middot; All Rights Reserved &middot; <a href="mailto:email@wescosports.com">Email us</a> &middot; <a href="#">Back to top</a></center></p>
       
         </footer>
 
