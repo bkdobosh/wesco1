@@ -6,7 +6,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('#myCarousel').carousel({
-        interval: 10000
+        interval: 7000
     })
     $('.fdi-Carousel .item').each(function () {
         var next = $(this).next();
